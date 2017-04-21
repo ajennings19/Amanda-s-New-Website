@@ -24,6 +24,8 @@ body{
 	float: right;
 }
 
+
+
 h1{
 	font-size: 1rem;
 	margin: 0;
@@ -156,6 +158,10 @@ img{
 	padding-top: 30px;
 	padding-bottom: 30px;
 	height: 100%;
+}
+
+.threecolumn{
+	display: block;
 }
 
 /*project 5 page*/
