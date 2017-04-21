@@ -1,0 +1,208 @@
+body{
+	background-color: white;
+	font-family: helvetica;
+	margin-top: 35px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 35px;
+}
+
+/*header section*/
+
+.header{
+	width: 100% !important;
+	background-color: none;
+}
+
+.logo, .hamburger{
+	display: inline-block;
+	margin: 0;
+	vertical-align: middle;
+}
+
+.hamburger{
+	float: right;
+}
+
+h1{
+	font-size: 1rem;
+	margin: 0;
+
+}
+
+h2{
+	font-size: 11px;
+	letter-spacing: 2px;
+	font-weight: lighter;
+	color: #4e4e4e;
+	margin: 0;
+}
+
+p{
+	font-size: 14.75px;
+	line-height: 150%
+}
+
+/*hover over images*/
+
+a.overlay {
+	display: block;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+a.overlay h2, a.overlay h1 {
+	display: none;
+}
+
+a.overlay:hover {
+	background-color: white;
+	opacity: .88;
+	color: black;
+}
+
+a.overlay:hover h2, a.overlay:hover h1 {
+	display: block;
+}
+
+.overlay-text{
+	position: absolute;
+	top: 45px;
+	left: 35px;
+	right: 35px;
+	bottom: 35px;
+}
+
+.overlay-text h1{
+	padding-top: 8px;
+	font-size: 19px;
+}
+/*rows 1-6*/
+.project1, .project2, .project3{
+	margin-top: 30px;
+	display: inline-block;
+	height: auto;
+	width: auto;
+	position: relative;
+}
+
+.project4, .project5, .project6{
+	margin-top: 10px;
+	display: inline-block;
+	padding-bottom: 30px;
+	height: auto;
+	width: auto;
+	position: relative;
+}
+
+img{
+	width: 100% !important;
+}
+
+/*project 1 page*/
+
+.project1header{
+}
+
+.project2header{
+}
+
+.project3header{
+}
+
+.project4header{
+
+}
+
+.project5header{
+
+}
+
+.project6header{
+	height: 450px;
+	background-color: green;
+}
+
+
+
+.projectdescription{
+	color: black;
+	background-color: #f6f6f6;
+	padding-top: 35px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-bottom: 35px;
+}
+
+.projectdescription > h2{
+	padding-bottom: 12px;
+}
+
+/*project 2 page*/
+
+.headerdescription{
+	padding-top: 100px;
+}
+
+/*project 4 page*/
+
+#slider{
+	height: auto;
+	width: auto;
+	width: 100%;
+}
+
+.sliderpadding{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	height: 100%;
+}
+
+/*project 5 page*/
+
+
+hr{
+	display: block;
+}
+
+/*footer*/
+
+hr{
+	margin: 0;
+	display: block;
+}
+
+.getincontact, .socialize > h2{
+	padding-top: 10px;
+}
+
+a{
+	font-size: 14.5px;
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: lightgrey;
+}
+
+.manipulation img {
+	cursor: -webkit-zoom-in;
+}
+
+
+/*media querys*/
+
+@media (max-width: 767px){
+	.project1 {
+	margin-top: 30px;
+	height: auto;
+	width: auto;
+}
+	.project2, .project3, .project4, .project5,{
+		margin-bottom: 10px;
+		margin-top: none;
+	}
+}
+}
