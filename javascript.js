@@ -22,14 +22,14 @@
 var slider = new IdealImageSlider.Slider({
 	selector: '#slider',
 	// height: 400, // Required but can be set by CSS
-	interval: 0
+	interval: 4000
 });
 slider.start();
 
 var slider2 = new IdealImageSlider.Slider({
 	selector: '#slider2',
 	// height: 400, // Required but can be set by CSS
-	interval: 0
+	interval: 4000
 });
 slider2.start();
 
