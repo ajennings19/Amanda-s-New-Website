@@ -104,25 +104,12 @@ img{
 
 /*project 1 page*/
 
-.project1header{
+.project1header, .project2header, .project3header, .project4header, .project5header, .project6header{
+	padding-top: 30px;
 }
 
-.project2header{
-}
-
-.project3header{
-}
-
-.project4header{
-
-}
-
-.project5header{
-
-}
-
-.project6header{
-
+.aboutmeheader{
+	padding-top: 45px;
 }
 
 

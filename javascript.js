@@ -16,6 +16,8 @@
 // 	$(this).toggleClass('forum_hover');
 // });
 
+
+
 var slider = new IdealImageSlider.Slider({
 	selector: '#slider',
 	// height: 400, // Required but can be set by CSS
@@ -29,4 +31,5 @@ var slider2 = new IdealImageSlider.Slider({
 	interval: 4000
 });
 slider2.start();
+
 
