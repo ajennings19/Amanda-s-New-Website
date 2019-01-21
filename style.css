@@ -47,6 +47,10 @@ p{
 	line-height: 150%
 }
 
+u{
+	text-decoration-color: #bca532; 
+}
+
 /*hover over images*/
 
 a.overlay {
