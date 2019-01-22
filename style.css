@@ -1,218 +1,88 @@
-body{
-	background-color: #eef0ee;
-	font-family: helvetica;
-	margin-top: 35px;
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-bottom: 35px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="style.css">
 
-/*header section*/
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="simple-grid.css">
 
-.header{
-	width: 100% !important;
-	background-color: none;
-}
+<head>
+  <meta charset="UTF-8">
+  <title>Amanda Jennings Design - About Amanda</title>
+</head>
 
-.logo, .hamburger{
-	display: inline-block;
-	margin: 0;
-	vertical-align: middle;
-}
+<body>
+<?php include_once("analyticstracking.php") ?>
 
-.hamburger{
-	float: right;
-}
+<div class ="grid head">
+	<div class="col-1-1">
+		<a class="logo" href="index.html"><h1>AMANDA JENNINGS</h1></a>
+		<a class="hamburger" href="aboutme.html"><h2>ABOUT ME</h2></a>
+	</div>
+</div>
 
 
-
-h1{
-	font-size: 1rem;
-	margin: 0;
-	color: #312f30;
-
-}
-
-h2{
-	font-size: 11px;
-	letter-spacing: 2px;
-	font-weight: lighter;
-	color: #312f30;
-	margin: 0;
-}
-
-p{
-	color: #312f30;
-	font-size: 14.75px;
-	line-height: 150%
-}
-
-u{
-	text-decoration-color: #bca532; 
-}
-
-/*hover over images*/
-
-a.overlay {
-	display: block;
-	position: absolute;
-	height: 100%;
-	width: 100%;
-}
-
-a.overlay h2, a.overlay h1 {
-	display: none;
-}
-
-a.overlay:hover {
-	background-color: #eef0ee;
-	opacity: .88;
-	color: black;
-}
-
-a.overlay:hover h2, a.overlay:hover h1 {
-	display: block;
-}
-
-.overlay-text{
-	position: absolute;
-	top: 45px;
-	left: 35px;
-	right: 35px;
-	bottom: 35px;
-}
-
-.overlay-text h1{
-	padding-top: 8px;
-	font-size: 19px;
-}
-/*rows 1-6*/
-.project1, .project2, .project3{
-	margin-top: 30px;
-	display: inline-block;
-	height: auto;
-	width: auto;
-	position: relative;
-}
-
-.project4, .project5, .project6{
-	margin-top: 10px;
-	display: inline-block;
-	padding-bottom: 30px;
-	height: auto;
-	width: auto;
-	position: relative;
-}
-
-img{
-	width: 100% !important;
-}
-
-/*project 1 page*/
-
-.project1header, .project2header, .project3header, .project4header, .project5header, .project6header{
-	padding-top: 30px;
-}
-
-.aboutmeheader{
-	padding-top: 45px;
-}
+<div class="grid manipulation">
+	<div class="col-1-3">
+		<div class="col-1-1">
+			<div class="project1">
+				<img src="img/aboutmeheader.png">
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="aboutmeheader">
+	<div class="col-2-3">
+		<p><b>Amanda Jennings </b> is a graphic designer passionate about visual communication based in Brooklyn, NY. Originally from Connecticut, she studied Graphic Design and graduated cum laude from Southern Connecticut State University. She has continued her education studying front-end web development and user experience design at General Assembly. 
+		<br><br>
+		Amanda's interests include iced coffee year-round, wearing layers, being an ebay enthusiast, finding the best bang for her buck, discovering the best food in the city, drinking sour beers, and staying inside with her French Bulldog, Lady. 
+		<br><br>
+		She has attention to detail, strong work ethic, and a sense of humor.</p>
+		<br>
+		<a href="mailto:jenningsab@icloud.com" width="350" height="264"><u>Reach out to Amanda</u></a>
+				<br>
+	</div>
+	</div>
+</div>
 
 
 
-.projectdescription{
-	color: black;
-	background-color: #f6f6f6;
-	padding-top: 35px;
-	padding-left: 35px;
-	padding-right: 35px;
-	padding-bottom: 35px;
-}
-
-a.GA_MasterEmailDesign{
-	color: teal;
-}
 
 
-.projectdescription > h2{
-	padding-bottom: 12px;
-}
 
-/*project 2 page*/
+<!-- footer -->
+<br><br>
+<div class="grid threecolumn">
+<hr>
+		<div class="col-1-3">
+			<div class="getincontact">
+				<h2>GET IN CONTACT</h2>
+				<a href="mailto:jenningsab@icloud.com" width="350" height="264">Email</a>
+				<br>
+				<a href="ajennings_resume.pdf" target="_blank">Resume</a>
+			</div>
+		</div>
+		<div class="col-1-3">
+			<div class="socialize">
+				<h2>SOCIALIZE</h2>
+				<a href="https://www.instagram.com/plumwhine/" target="_blank">Instagram</a>
+				<br>
+				<a href="https://www.linkedin.com/in/jenningsab/" target="_blank">Linkedin</a>
+			</div>
+		</div>
+		<div class="col-1-3">
+				
+		</div>
+</div> 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-97913479-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
 
-.headerdescription{
-	padding-top: 100px;
-}
-
-/*project 4 page*/
-
-#slider{
-	height: auto;
-	width: auto;
-	width: 100%;
-}
-
-.sliderpadding{
-	padding-top: 30px;
-	padding-bottom: 30px;
-	height: 100%;
-}
-
-.threecolumn{
-	display: block;
-}
-
-.mediaslider{
-	display: block;
-}
-
-.aboutmeheader > .col-2-3{
-	padding-left: 35px;
-}
-/*project 5 page*/
-
-
-hr{
-	display: block;
-}
-
-/*footer*/
-
-hr{
-	margin: 0;
-	display: block;
-}
-
-.getincontact, .socialize > h2{
-	padding-top: 10px;
-}
-
-a{
-	font-size: 14.5px;
-	text-decoration: none;
-	color: black;
-}
-
-a:hover{
-	color: #bca532;
-}
-
-.manipulation img {
-	cursor: -webkit-zoom-in;
-}
-
-
-/*media querys*/
-
-@media (max-width: 767px){
-	.project1 {
-	margin-top: 30px;
-	height: auto;
-	width: auto;
-}
-	.project2, .project3, .project4, .project5,{
-		margin-bottom: 10px;
-		margin-top: none;
-	}
-}
-}
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="project.js"></script>
+</html>
