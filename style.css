@@ -35,15 +35,15 @@ h1{
 
 h2{
 	font-size: 11px;
+	margin: 1;
 	letter-spacing: 2px;
 	font-weight: lighter;
 	color: #312f30;
-	margin: 0;
 }
 
 p{
 	color: #312f30;
-	font-size: 14.75px;
+	font-size: 16px;
 	line-height: 150%
 }
 
