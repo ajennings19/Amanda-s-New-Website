@@ -27,23 +27,24 @@ body{
 
 
 h1{
-	font-size: 1rem;
+	font-size: 18.5px;
 	margin: 0;
 	color: #312f30;
 
 }
 
 h2{
-	font-size: 11px;
+	font-size: 12px;
 	margin: 1;
 	letter-spacing: 2px;
 	font-weight: lighter;
 	color: #312f30;
+	line-height: 125%
 }
 
 p{
 	color: #312f30;
-	font-size: 16px;
+	font-size: 16.5px;
 	line-height: 150%
 }
 
@@ -188,7 +189,7 @@ hr{
 }
 
 a{
-	font-size: 14.5px;
+	font-size: 16.5px;
 	text-decoration: none;
 	color: black;
 }
