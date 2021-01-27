@@ -102,7 +102,7 @@ a.overlay h2, a.overlay h1 {
 }
 
 a.overlay:hover {
-	background-color: #f6f6f6;
+	background-color: #ffffff;
 	opacity: .88;
 	color: black;
 }
@@ -150,11 +150,6 @@ img{
 .project1header, .project2header, .project3header, .project4header, .project5header, .project6header{
 	padding-top: 30px;
 }
-
-.aboutmeheader{
-	padding-top: 45px;
-}
-
 
 
 .projectdescription{
