@@ -56,7 +56,7 @@ body{
 
 
 h1{
-	font-size: 18.5px;
+	font-size: 18px;
 	font-weight: 600;
 	margin: 0;
 	color: #222222;
@@ -76,7 +76,7 @@ h2{
 p{
 	color: #222222;
 	font-weight: 200;
-	font-size: 16.5px;
+	font-size: 15.5px;
 	line-height: 150%
 }
 
@@ -85,7 +85,7 @@ u{
 }
 
 b{
-	font-weight: 600;
+	font-weight: 500;
 }
 
 /*hover over images*/
@@ -220,7 +220,7 @@ hr{
 }
 
 a{
-	font-size: 16.5px;
+	font-size: 15.5px;
 	text-decoration: none;
 	color: black;
 }
