@@ -51,12 +51,22 @@ body{
 
 .hamburger{
 	float: right;
+	margin: 5px;
 }
 
 
+h4{
+	font-size: 24px;
+	float: left;
+	font-weight: 600;
+	margin: 10px;
+	color: #222222;
+	line-height: 130%
+
+}
 
 h1{
-	font-size: 18.5px;
+	font-size: 22px;
 	font-weight: 600;
 	margin: 0;
 	color: #222222;
@@ -65,7 +75,7 @@ h1{
 }
 
 h2{
-	font-size: 12px;
+	font-size: 15.5px;
 	font-family: "PT Mono", sans-serif;
 	margin: 1;
 	letter-spacing: 1px;
@@ -84,12 +94,12 @@ h3{
 p{
 	color: #222222;
 	font-weight: 200;
-	font-size: 15.5px;
+	font-size: 16px;
 	line-height: 150%
 }
 
 u{
-	text-decoration-color: #bca532;
+	text-decoration-color: #ededed;
 }
 
 b{
@@ -136,6 +146,8 @@ a.overlay:hover h2, a.overlay:hover h1 {
 	padding-top: 8px;
 	font-size: 19px;
 }
+
+
 /*rows 1-6*/
 .project1, .project2, .project3{
 	margin-top: 15px;
