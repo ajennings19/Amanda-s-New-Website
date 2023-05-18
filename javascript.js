@@ -1,36 +1,20 @@
-// var mainImage = $("project1");
-// $(".img-container img").hover(function(){
-//    var src = $(this).attr("src");
-//     $("project1").attr("src",src);
-// });
+   $(function() {
+  var prefix = function() {
+    var a = window.getComputedStyle(document.documentElement, ""),
+      b = (Array.prototype.slice.call(a).join("").match(/-(moz|webkit|ms)-/) || "" === a.OLink && ["", "o"])[1];
+    return "WebKit|Moz|MS|O".match(new RegExp("(" + b + ")", "i"))[1], "-" + b + "-"
+  }();
+  $(document).mousemove(function(e) {
+    mouseX = e.pageX + 15;
+    mouseY = e.pageY - $(window).scrollTop() + 15;
+    $('.theBall-outer').attr('style', prefix + 'transform:translate(' + mouseX + 'px,' + mouseY + 'px)');
+  });
 
-// mainImage.on("click",function(){
-//     $(this).css("transform","scale(2)");
-// });
-
-// $("project1").hover("click", function() {
-//   $(".dimmer").addClass("active");
-// });
-
-// $('.project1').hover(function(){
-// 	$(this).toggleClass('forum_hover');
-// });
-
-
+ $(document).on('mouseenter', 'a', function() {
+    $('.theBall').addClass('zooming');
+  }).on('mouseleave', 'a', function() {
+    $(".theBall").removeClass("zooming")
+  });
 
 
-var slider = new IdealImageSlider.Slider({
-	selector: '#slider',
-	// height: 400, // Required but can be set by CSS
-	interval: 4000
-});
-slider.start();
-
-var slider2 = new IdealImageSlider.Slider({
-	selector: '#slider2',
-	// height: 400, // Required but can be set by CSS
-	interval: 4000
-});
-slider2.start();
-
-
+})

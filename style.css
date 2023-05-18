@@ -1,276 +1,695 @@
-/* poppins-regular - latin */
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-/*  font-weight: 100;*/
-  src: url('font/fonts/poppins-v15-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('font/fonts/poppins-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('font/fonts/poppins-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('font/fonts/poppins-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('font/fonts/poppins-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('font/fonts/poppins-v15-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+*{
+
+    margin: 0 auto;
+
+    
 }
 
-/* pt-mono-regular - latin */
-@font-face {
-  font-family: 'PT Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: url('font/fonts/pt-mono-v8-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('font/fonts/pt-mono-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('font/fonts/pt-mono-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('font/fonts/pt-mono-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('font/fonts/pt-mono-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('font/fonts/pt-mono-v8-latin-regular.svg#PTMono') format('svg'); /* Legacy iOS */
+body, html{
+    
+    font-family: sans-serif;
+    font-family: "Helvetica";
+    font-weight:300;
+    background: #fffff9;
+
 }
 
 
-body{
-	background-color: #ffffff;
-	font-family: "Poppins", sans-serif;
-	margin-top: 35px;
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-bottom: 35px;
+
+
+
+/* TOP ANIMATION TOP ANIMATION TOP ANIMATION TOP ANIMATION TOP ANIMATION TOP ANIMATION TOP ANIMATION */
+
+
+
+
+
+.flier {
+    pointer-events: none;
 }
 
-/*header section*/
-
-.header{
-	width: 100% !important;
-	background-color: none;
+.flier > * {
+/* Adjust animation duration to change the element’s speed */
+        animation: fly 128s linear infinite;
+        pointer-events: none !important;
+    top: 0;
+    left: 0;
+    transform: translateX(-120%) translateY(-120%) rotateZ(0);
+    position: fixed;
+    animation-delay: -6s;
+    z-index: 0;
 }
 
-.logo, .hamburger{
-	display: inline-block;
-	margin: 0;
-	vertical-align: middle;
+ /* Keyframe values control where the element will begin
+    and end its trajectory across the screen. Each rule
+    represents a path the element follows across the screen. */
+
+
+
+
+
+
+
+
+
+
+/* Link Behavior Link Behavior Link Behavior Link Behavior Link Behavior Link Behavior Link Behavior Link Behavior */
+
+a {
+  color:inherit;
+  text-decoration: none;
+  transition: 300ms;
 }
 
-.hamburger{
-	float: right;
-	margin: 5px;
-}
-
-
-h4{
-	font-size: 20px;
-	float: left;
-	font-weight: 600;
-	margin: 10px;
-	color: #222222;
-	line-height: 130%
-
-}
-
-h1{
-	font-size: 22px;
-	font-weight: 600;
-	margin: 0;
-	color: #222222;
-	line-height: 130%
-
-}
-
-h2{
-	font-size: 13.5px;
-	font-family: "PT Mono", sans-serif;
-	margin: 1;
-	letter-spacing: 1px;
-	font-weight: lighter;
-	color: #222222;
-	line-height: 125%
-}
-
-h3{
-	font-size: 24.5px;
-	font-family: "PT Mono", sans-serif;
-	font-weight: lighter;
-	line-height: 125%
-}
-
-p{
-	color: #222222;
-	font-weight: 200;
-	font-size: 16px;
-	line-height: 150%
-}
-
-u{
-	text-decoration-color: #ededed;
-}
-
-b{
-	font-weight: 500;
+a:visited {
+    color:inherit;
 }
 
 
-mark{
-	background-color: #ededed;
+
+
+
+/* BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1   */
+
+
+
+@media screen and (max-width:100000000px) and (min-width:1851px){
+
+
+
+
+
+.nav {
+    float: left;
+    font-size: 14; 
+    font-weight: 300; 
+    text-align: left;
+    padding-left:4vw;
+    padding-top: 18px;
+    color:white;
+    mix-blend-mode: exclusion;
+    position: fixed;
+    text-transform: lowercase;
+    width:100%;
+    border-bottom: solid 1px;
 }
 
-/*hover over images*/
+.nav-mobile{
+    display: none;
 
-a.overlay {
-	display: block;
-	position: absolute;
-	height: 100%;
-	width: 100%;
-}
-
-a.overlay h2, a.overlay h1 {
-	display: none;
-}
-
-a.overlay:hover {
-	background-color: #ffffff;
-	opacity: .88;
-	color: black;
-}
-
-a.overlay:hover h2, a.overlay:hover h1 {
-	display: block;
-}
-
-.overlay-text{
-	position: absolute;
-	top: 45px;
-	left: 35px;
-	right: 35px;
-	bottom: 35px;
-}
-
-.overlay-text h1{
-	padding-top: 8px;
-	font-size: 19px;
 }
 
 
-/*rows 1-6*/
-.project1, .project2, .project3{
-	margin-top: 15px;
-	display: inline-block;
-	height: auto;
-	width: auto;
-	position: relative;
+#div1 {
+    font-size: 36; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 300; 
+    float: left;
 }
 
-.project4, .project5, .project6{
-	margin-top: 10px;
-	display: inline-block;
-	padding-bottom: 30px;
-	height: auto;
-	width: auto;
-	position: relative;
-}
+#div2 { 
+    font-size: 36; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 300; 
+    float: left;
+    color:#000;
+    padding-top: 120px;
+    margin-left: 80%;
 
-img{
-	width: 100% !important;
-}
-
-/*project 1 page*/
-
-.project1header, .project2header, .project3header, .project4header, .project5header, .project6header{
-	padding-top: 30px;
 }
 
 
-.projectdescription{
-	color: black;
-	background-color: white;
-	padding-top: 35px;
-	padding-left: 35px;
-	padding-right: 35px;
-	padding-bottom: 35px;
+
+.title{
+    line-height: 1.13;
+    padding-left:4vw;
+    padding-right:7vh;
+    padding-top: 120px;
+    position: fixed;
 }
 
-a.GA_MasterEmailDesign{
-	color: teal;
-}
-
-
-.projectdescription > h2{
-	padding-bottom: 12px;
-}
-
-/*project 2 page*/
-
-.headerdescription{
-	padding-top: 100px;
-}
-
-/*project 4 page*/
-
-#slider{
-	height: auto;
-	width: auto;
-	width: 100%;
-}
-
-.sliderpadding{
-	padding-top: 30px;
-	padding-bottom: 30px;
-	height: 100%;
-}
-
-.threecolumn{
-	display: block;
-}
-
-.mediaslider{
-	display: block;
-}
-
-.aboutmeheader > .col-2-3{
-	padding-left: 35px;
-}
-/*project 5 page*/
-
-
-hr{
-	display: block;
-}
-
-/*footer*/
-
-hr{
-	margin: 0;
-	display: block;
-}
-
-.getincontact, .socialize > h2{
-	padding-top: 10px;
-}
-
-a{
-	font-size: 15.5px;
-	text-decoration: none;
-	color: black;
-	line-height: 25%
-}
-
-a:hover{
-	color: #47384a;
-}
-
-.manipulation img {
-	cursor: -webkit-zoom-in;
+.contact{
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 300; 
+    line-height: 1.12;
+    padding-left:4vw;
+    padding-right:7vh;
+    position: fixed;
+    bottom: 6vh;
+    margin: 0 auto;
 }
 
 
-/*media querys*/
 
-@media (max-width: 767px){
-	.project1 {
-	margin-top: 30px;
-	height: auto;
-	width: auto;
+.services{
+    line-height: 1.13;
+    padding-right:6vw;
 }
-	.project2, .project3, .project4, .project5,{
-		margin-bottom: 10px;
-		margin-top: none;
-	}
+
+
+.email:hover span {
+    display:none;
+    color:#fff;
 }
+
+.email:hover:before {
+    border-bottom: none;
+    content:"jenningsab@icloud.com";
+    color:#000;
+}
+
+
+
+
+
+
+.post img{
+    width:100%;
+}
+
+.post video{
+    width:100%;
+}
+
+.post{
+
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight:300; 
+    line-height: 22px;
+    padding-left:0vw;
+    padding-right:4vw;
+    padding-bottom: 1.2vw;
+    display: inline-block;
+}
+
+.description{
+    font-size: 14px; 
+    line-height: 18px;
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight:300; 
+    padding-right:4vw;
+    padding-top: 12px;
+    text-transform: ;
+}
+
+.description span{
+    display: none;
+}
+
+
+}
+
+
+/* BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1   */
+
+
+
+@media screen and (max-width:1850px) and (min-width:1400px){
+
+
+
+.nav {
+    float: left;
+    font-size: 14; 
+    font-weight: 300; 
+    text-align: left;
+    padding-left:4vw;
+    padding-top: 18px;
+    color:white;
+    mix-blend-mode: exclusion;
+    position: fixed;
+    text-transform: lowercase;
+    width:100%;
+    border-bottom: solid 1px;
+}
+
+.nav-mobile{
+    display: none;
+}
+
+#div1 {
+    font-size: 36; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 300; 
+    float: left;
+}
+
+#div2 { 
+    font-size: 36; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 300; 
+    float: left;
+    color:#000;
+    padding-top: 120px;
+    margin-left: 45%;
+
+}
+
+
+.title{
+    line-height: 1.13;
+    padding-left:4vw;
+    padding-right:7vh;
+    padding-top: 120px;
+  
+    position: fixed;
+}
+
+.contact{
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 300; 
+    line-height: 1.12;
+    padding-left:4vw;
+    padding-right:7vh;
+    position: fixed;
+    bottom: 6vh;
+    margin: 0 auto;
+}
+
+
+.services{
+    line-height: 1.13;
+    padding-right:4vw;
+}
+
+
+.email:hover span {
+    display:none;
+    color:#fff;
+}
+
+.email:hover:before {
+    border-bottom: none;
+    content:"jenningsab@icloud.com";
+    color:#000;
+}
+
+
+
+
+
+
+.post img{
+    width:100%;
+}
+
+.post video{
+    width:100%;
+}
+
+.post{
+    padding-left:0vw;
+    padding-right:1vw;
+    padding-bottom: 1.4vw;
+    display: inline-block;
+}
+
+.description{
+    font-size: 14px; 
+    line-height: 18px;
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight:300; 
+    padding-right:4vw;
+    padding-top: 8px;
+    text-transform: ;
+}
+.description span{
+    display: none;
+}
+
+
+
+}
+
+
+/* BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1   */
+
+@media screen and (max-width:1399px) and (min-width: 900px){
+
+
+
+
+
+.nav {
+    float: left;
+    font-size: 14; 
+    font-weight: 300; 
+    text-align: left;
+    padding-left:4vw;
+    padding-top: 18px;
+    color:white;
+    mix-blend-mode: exclusion;
+    position: fixed;
+    text-transform: lowercase;
+    width:100%;
+    border-bottom: solid 1px;
+}
+
+.nav-mobile{
+    display: none;
+}
+
+#div1 {
+    font-size: 36; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 300; 
+    float: left;
+}
+
+#div2 { 
+    font-size: 36; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 300; 
+    float: left;
+    color:#000;
+    padding-top: 120px;
+    margin-left: 80%;
+}
+
+
+.title{
+    line-height: 1.13;
+    padding-left:4vw;
+    padding-right:7vh;
+    padding-top: 120px;
+  
+    position: fixed;
+}
+
+.contact{
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 300; 
+    line-height: 1.12;
+    padding-left:4vw;
+    padding-right:7vh;
+    position: fixed;
+    bottom: 6vh;
+    margin: 0 auto;
+}
+
+
+#div2 { 
+    font-size: 36; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 300; 
+    float: left;
+    color:#000;
+    padding-top: 120px;
+    margin-left: 40%;
+}
+
+
+
+.services{
+    line-height: 1.13;
+    padding-right:4vw;
+}
+
+
+.email:hover span {
+    display:none;
+    color:#fff;
+}
+
+.email:hover:before {
+    border-bottom: none;
+    content:"jenningsab@icloud.com";
+    color:#000;
+}
+
+
+
+
+
+
+.post img{
+    width:100%;
+}
+
+.post video{
+    width:100%;
+}
+
+.post{
+
+    padding-left:0vw;
+    padding-bottom: 1.5vw;
+    display: inline-block;
+}
+
+
+.description{
+    font-size: 14px; 
+    line-height: 18px;
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight:300; 
+    padding-right:4vw;
+    padding-top: 6px;
+    text-transform: ;
+}
+.description span{
+    display: none;
+}
+
+}
+
+   
+
+
+/* BREAKPONT 2 BREAKPONT 2 BREAKPONT 2 BREAKPONT 2 BREAKPONT 2 BREAKPONT 2 BREAKPONT 2 BREAKPONT 2 BREAKPONT 2   */
+
+
+@media screen and (max-width:899px) and (min-width: 500px){
+
+
+.nav-mobile {
+    float: left;
+    font-size: 14; 
+    font-weight: 300; 
+    line-height: 18px;
+    text-align: left;
+    padding-left:40px;
+    padding-top: 18px;
+    position: fixed;
+    text-transform: lowercase;
+    width:100%;
+    border-bottom: solid 1px;
+    background-color: #fffff9;
+}
+
+.nav {
+    display: none;
+}
+
+
+#div1 {
+    font-size: 36; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 300; 
+    width: 100%;
+    height:100px;
+    float: left;
+    color:#000;
+
+}
+
+.title{
+    font-size: 36; 
+    line-height: 1.13;
+    padding-left:40px;
+    padding-right:7vh;
+    padding-top: 120px;
+    display:block;
+    position:fixed;
+    mix-blend-mode: exclusion;
+    color:white;
+}
+
+.contact{
+    display: none;
+}
+
+#div2 { 
+    font-size: 36; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 300; 
+    width: 100%; 
+    float: left;
+    color:#000;
+    display: block;
+}
+
+.services{
+    line-height: 1.13;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top: 100px;
+    padding-bottom: 45;
+    font-size: 36; 
+}
+
+
+
+
+.post img{
+    width:100%;
+}
+
+.post video{
+    width:100%;
+}
+
+.post{
+    padding-left:0vw;
+    padding-top: 3vw;
+    display: inline-block;
+}
+
+
+.description{
+    font-size: 14px;
+    line-height: 18px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight:300; 
+    padding-right:4vw;
+    padding-top: 6px;
+    text-transform: ;
+}
+
+.description span{
+    display: none;
+}
+
+p span{
+        font-size: 24px; 
+}
+
+}
+
+/* BREAKPONT 3 BREAKPONT 3 BREAKPONT 3 BREAKPONT 3 BREAKPONT 3 BREAKPONT 3 BREAKPONT 3 BREAKPONT 3 BREAKPONT 3   */
+
+@media screen and (max-width:499px) and (min-width: 100px){
+
+.nav-mobile {
+    float: left;
+    font-size: 10; 
+    font-weight: 300; 
+    line-height: 18px;
+    text-align: left;
+    padding-left:20px;
+    padding-top: 18px;
+    position: fixed;
+    text-transform: lowercase;
+    width:100%;
+    border-bottom: solid 1px;
+    background-color: #fffff9;
+}
+
+.nav{
+    display: none;
+}
+
+#div1 {
+    font-size: 9vw; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 300; 
+    width: 100%;
+    height:100px;
+    float: left;
+    color:#000;
+
+}
+
+.title{
+    font-size: 9vw; 
+    line-height: 1.13;
+    padding-left:20px;
+    padding-right:7vh;
+    padding-top: 120px;
+    display:block;
+    position:fixed;
+    mix-blend-mode: exclusion;
+    color:white;
+}
+
+.contact{
+    display: none;
+}
+
+#div2 { 
+    font-size: 9vw; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 300; 
+    width: 100%; 
+    float: left;
+    color:#000;
+    display: block;
+}
+
+.services{
+    line-height: 1.13;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 100px;
+    padding-bottom: 45;
+    font-size: 36; 
+}
+
+
+
+
+.post img{
+    width:100%;
+}
+
+.post video{
+    width:100%;
+}
+
+.post{
+    padding-left:0vw;
+    padding-top: 3vw;
+    display: inline-block;
+}
+
+
+.description{
+    font-size: 14px;
+    line-height: 18px;
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight:300; 
+    padding-right:4vw;
+    padding-top: 6px;
+    text-transform: ;
+}
+
+.description span{
+    display: none;
+}
+
+p span{
+        font-size: 24px; 
+}
+
+
 }
