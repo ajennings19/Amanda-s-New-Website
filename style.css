@@ -61,8 +61,16 @@ a {
   transition: 300ms;
 }
 
+a:hover {
+	background-size: 4px 50px;
+}
+
 a:visited {
     color:inherit;
+}
+
+b {
+	color: #7C8F1B;
 }
 
 
@@ -258,7 +266,6 @@ a:visited {
     padding-left:4vw;
     padding-right:7vh;
     padding-top: 120px;
-  
     position: fixed;
 }
 
@@ -383,7 +390,6 @@ a:visited {
     padding-left:4vw;
     padding-right:7vh;
     padding-top: 120px;
-  
     position: fixed;
 }
 
