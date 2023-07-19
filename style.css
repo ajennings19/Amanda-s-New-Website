@@ -18,39 +18,6 @@ body, html{
 
 
 
-/* TOP ANIMATION TOP ANIMATION TOP ANIMATION TOP ANIMATION TOP ANIMATION TOP ANIMATION TOP ANIMATION */
-
-
-
-
-
-.flier {
-    pointer-events: none;
-}
-
-.flier > * {
-/* Adjust animation duration to change the element’s speed */
-        animation: fly 128s linear infinite;
-        pointer-events: none !important;
-    top: 0;
-    left: 0;
-    transform: translateX(-120%) translateY(-120%) rotateZ(0);
-    position: fixed;
-    animation-delay: -6s;
-    z-index: 0;
-}
-
- /* Keyframe values control where the element will begin
-    and end its trajectory across the screen. Each rule
-    represents a path the element follows across the screen. */
-
-
-
-
-
-
-
-
 
 
 /* Link Behavior Link Behavior Link Behavior Link Behavior Link Behavior Link Behavior Link Behavior Link Behavior */
@@ -80,9 +47,7 @@ b {
 /* BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1   */
 
 
-
 @media screen and (max-width:100000000px) and (min-width:1851px){
-
 
 
 
@@ -213,6 +178,10 @@ b {
 }
 
 
+
+
+
+
 /* BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1   */
 
 
@@ -341,7 +310,6 @@ b {
 /* BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1 BREAKPONT 1   */
 
 @media screen and (max-width:1399px) and (min-width: 900px){
-
 
 
 
@@ -480,6 +448,8 @@ b {
 
 
 @media screen and (max-width:899px) and (min-width: 500px){
+
+
 
 
 .nav-mobile {
