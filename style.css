@@ -675,7 +675,8 @@ h1{
     font-size: 9vw; 
     font-style: normal; 
     font-variant: normal; 
-    font-weight: 300; 
+    font-weight: 300;
+    padding-top: 285px;
     width: 100%; 
     float: left;
     color:#000;
