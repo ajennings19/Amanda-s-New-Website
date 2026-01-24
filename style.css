@@ -7,10 +7,11 @@
 
 body, html{
     
+    color: #3E3E3D;
     font-family: sans-serif;
     font-family: "Helvetica";
     font-weight:300;
-    background: #FBFBFB;
+    background: #F6F7F4;
 
 }
 
@@ -23,7 +24,7 @@ body, html{
 /* Link Behavior Link Behavior Link Behavior Link Behavior Link Behavior Link Behavior Link Behavior Link Behavior */
 
 a {
-  color:inherit;
+  color: #3E3E3D;
   text-decoration: none;
   transition: 300ms;
 }
@@ -51,8 +52,21 @@ b {
 
 
 h1{
-   font-size: 14px; 
+    color: #3E3E3D;
+    font-size: 14px; 
     line-height: 18px;
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight:300; 
+    padding-right:4vw;
+    padding-top: 12px;
+    text-transform: ;
+}
+
+h2{
+    color: #3E3E3D;
+    font-size: 28px; 
+    line-height: 32px;
     font-style: normal; 
     font-variant: normal; 
     font-weight:300; 
@@ -200,7 +214,8 @@ h1{
 @media screen and (max-width:1850px) and (min-width:1400px){
 
 h1{
-   font-size: 14px; 
+    color: #3E3E3D;
+    font-size: 14px; 
     line-height: 18px;
     font-style: normal; 
     font-variant: normal; 
@@ -209,6 +224,19 @@ h1{
     padding-top: 12px;
     text-transform: ;
 }
+
+h2{
+    color: #3E3E3D;
+    font-size: 28px; 
+    line-height: 32px;
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight:300; 
+    padding-right:4vw;
+    padding-top: 12px;
+    text-transform: ;
+}
+
 
 .nav {
     float: left;
@@ -334,8 +362,21 @@ h1{
 @media screen and (max-width:1399px) and (min-width: 900px){
 
 h1{
-   font-size: 14px; 
+    color: #3E3E3D;
+    font-size: 14px; 
     line-height: 18px;
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight:300; 
+    padding-right:4vw;
+    padding-top: 12px;
+    text-transform: ;
+}
+
+h2{
+    color: #3E3E3D;
+    font-size: 28px; 
+    line-height: 32px;
     font-style: normal; 
     font-variant: normal; 
     font-weight:300; 
@@ -434,7 +475,7 @@ h1{
 .email:hover:before {
     border-bottom: none;
     content:"jenningsab@icloud.com";
-    color:#000;
+    color: #3E3E3D;
 }
 
 
@@ -483,8 +524,21 @@ h1{
 @media screen and (max-width:899px) and (min-width: 500px){
 
 h1{
-   font-size: 14px; 
+    color: #3E3E3D;
+    font-size: 14px; 
     line-height: 18px;
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight:300; 
+    padding-right:4vw;
+    padding-top: 12px;
+    text-transform: ;
+}
+
+h2{
+    color: #3E3E3D;
+    font-size: 28px; 
+    line-height: 32px;
     font-style: normal; 
     font-variant: normal; 
     font-weight:300; 
@@ -602,6 +656,7 @@ h1{
 }
 
 p span{
+        color: #3E3E3D;
         font-size: 24px; 
 }
 
@@ -612,7 +667,8 @@ p span{
 @media screen and (max-width:499px) and (min-width: 100px){
 
 h1{
-   font-size: 14px; 
+    color: #3E3E3D;
+    font-size: 14px; 
     line-height: 18px;
     font-style: normal; 
     font-variant: normal; 
@@ -622,6 +678,17 @@ h1{
     text-transform: ;
 }
 
+h2{
+    color: #3E3E3D;
+    font-size: 28px; 
+    line-height: 32px;
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight:300; 
+    padding-right:4vw;
+    padding-top: 12px;
+    text-transform: ;
+}
 
 
 .nav-mobile {
@@ -725,9 +792,10 @@ h1{
     display: none;
 }
 
-p span{
-        font-size: 24px; 
-}
+/*p span{
+        color: #3E3E3D;
+        font-size: 20px; 
+}*/
 
 
 }
