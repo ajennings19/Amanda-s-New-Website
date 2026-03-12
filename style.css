@@ -5,14 +5,11 @@
     
 }
 
-body, html{
-    
-    color: #3E3E3D;
-    font-family: sans-serif;
-    font-family: "Helvetica";
-    font-weight:300;
-    background: #F6F7F4;
-
+body, html {
+    color: #3F3230;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    background: #F6F4EF;
 }
 
 
@@ -52,15 +49,15 @@ b {
 
 
 h1{
-    color: #3E3E3D;
-    font-size: 14px; 
-    line-height: 18px;
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight:300; 
-    padding-right:4vw;
+    color: #9A938F;
+    font-size: 14.5px;
+    font-family: 'Source Serif 4', serif;
+    font-style: italic;
+    line-height: 140%;
+    font-variant: normal;
+    font-weight: 100;
+    padding-right: 4vw;
     padding-top: 12px;
-    text-transform: ;
 }
 
 h2{
@@ -69,11 +66,20 @@ h2{
     line-height: 32px;
     font-style: normal; 
     font-variant: normal; 
-    font-weight:300; 
+    font-weight:400; 
     padding-right:4vw;
     padding-top: 12px;
     text-transform: ;
 }
+
+h3{
+    color: #3E3E3D;
+    font-size: 14.5px;
+    line-height: 140%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300; /* Corresponds to the 'Light' weight */
+}
+
 
 .nav {
     float: left;
@@ -101,7 +107,7 @@ h2{
     line-height: 42;  
     font-style: normal; 
     font-variant: normal; 
-    font-weight: 300; 
+    font-weight: 400; 
     float: left;
 }
 
@@ -110,7 +116,7 @@ h2{
     line-height: 42; 
     font-style: normal; 
     font-variant: normal; 
-    font-weight: 300; 
+    font-weight: 400; 
     float: left;
     color:#000;
     padding-top: 120px;
@@ -131,7 +137,7 @@ h2{
 .contact{
     font-style: normal; 
     font-variant: normal; 
-    font-weight: 300; 
+    font-weight: 400; 
     line-height: 1.12;
     padding-left:4vw;
     padding-right:7vh;
@@ -176,7 +182,7 @@ h2{
 
     font-style: normal; 
     font-variant: normal; 
-    font-weight:300; 
+    font-weight:400; 
     line-height: 22px;
     padding-left:0vw;
     padding-right:4vw;
@@ -189,7 +195,7 @@ h2{
     line-height: 18px;
     font-style: normal; 
     font-variant: normal; 
-    font-weight:300; 
+    font-weight:400; 
     padding-right:4vw;
     padding-top: 12px;
     text-transform: ;
@@ -214,16 +220,17 @@ h2{
 @media screen and (max-width:1850px) and (min-width:1400px){
 
 h1{
-    color: #3E3E3D;
-    font-size: 14px; 
-    line-height: 18px;
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight:300; 
-    padding-right:4vw;
+    color: #9A938F;
+    font-size: 14.5px;
+    font-family: 'Source Serif 4', serif;
+    font-style: italic;
+    line-height: 140%;
+    font-variant: normal;
+    font-weight: 100;
+    padding-right: 4vw;
     padding-top: 12px;
-    text-transform: ;
 }
+
 
 h2{
     color: #3E3E3D;
@@ -231,17 +238,25 @@ h2{
     line-height: 32px;
     font-style: normal; 
     font-variant: normal; 
-    font-weight:300; 
+    font-weight:400; 
     padding-right:4vw;
     padding-top: 12px;
     text-transform: ;
+}
+
+h3{
+    color: #3E3E3D;
+    font-size: 14.5px;
+    line-height: 140%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300; /* Corresponds to the 'Light' weight */
 }
 
 
 .nav {
     float: left;
     font-size: 14; 
-    font-weight: 300; 
+    font-weight: 400; 
     text-align: left;
     padding-left:4vw;
     padding-top: 18px;
@@ -262,7 +277,7 @@ h2{
     font-size: 36; 
     font-style: normal; 
     font-variant: normal; 
-    font-weight: 300; 
+    font-weight: 400; 
     float: left;
 }
 
@@ -270,7 +285,7 @@ h2{
     font-size: 36; 
     font-style: normal; 
     font-variant: normal; 
-    font-weight: 300; 
+    font-weight: 400; 
     float: left;
     color:#000;
     padding-top: 120px;
@@ -291,7 +306,7 @@ h2{
 .contact{
     font-style: normal; 
     font-variant: normal; 
-    font-weight: 300; 
+    font-weight: 400; 
     line-height: 1.12;
     padding-left:4vw;
     padding-right:7vh;
@@ -343,7 +358,7 @@ h2{
     line-height: 18px;
     font-style: normal; 
     font-variant: normal; 
-    font-weight:300; 
+    font-weight:400; 
     padding-right:4vw;
     padding-top: 8px;
     text-transform: ;
@@ -362,16 +377,17 @@ h2{
 @media screen and (max-width:1399px) and (min-width: 900px){
 
 h1{
-    color: #3E3E3D;
-    font-size: 14px; 
-    line-height: 18px;
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight:300; 
-    padding-right:4vw;
+    color: #9A938F;
+    font-size: 14.5px;
+    font-family: 'Source Serif 4', serif;
+    font-style: italic;
+    line-height: 140%;
+    font-variant: normal;
+    font-weight: 100;
+    padding-right: 4vw;
     padding-top: 12px;
-    text-transform: ;
 }
+
 
 h2{
     color: #3E3E3D;
@@ -379,17 +395,25 @@ h2{
     line-height: 32px;
     font-style: normal; 
     font-variant: normal; 
-    font-weight:300; 
+    font-weight:400; 
     padding-right:4vw;
     padding-top: 12px;
     text-transform: ;
+}
+
+h3{
+    color: #3E3E3D;
+    font-size: 14.5px;
+    line-height: 140%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300; /* Corresponds to the 'Light' weight */
 }
 
 
 .nav {
     float: left;
     font-size: 14; 
-    font-weight: 300; 
+    font-weight: 400; 
     text-align: left;
     padding-left:4vw;
     padding-top: 18px;
@@ -410,7 +434,7 @@ h2{
     font-size: 36; 
     font-style: normal; 
     font-variant: normal; 
-    font-weight: 300; 
+    font-weight: 400; 
     float: left;
 }
 
@@ -418,7 +442,7 @@ h2{
     font-size: 36; 
     font-style: normal; 
     font-variant: normal; 
-    font-weight: 300; 
+    font-weight: 400; 
     float: left;
     color:#000;
     padding-top: 120px;
@@ -438,7 +462,7 @@ h2{
 .contact{
     font-style: normal; 
     font-variant: normal; 
-    font-weight: 300; 
+    font-weight: 400; 
     line-height: 1.12;
     padding-left:4vw;
     padding-right:7vh;
@@ -452,7 +476,7 @@ h2{
     font-size: 36; 
     font-style: normal; 
     font-variant: normal; 
-    font-weight: 300; 
+    font-weight: 400; 
     float: left;
     color:#000;
     padding-top: 120px;
@@ -504,7 +528,7 @@ h2{
     line-height: 18px;
     font-style: normal; 
     font-variant: normal; 
-    font-weight:300; 
+    font-weight:400; 
     padding-right:4vw;
     padding-top: 6px;
     text-transform: ;
@@ -524,16 +548,17 @@ h2{
 @media screen and (max-width:899px) and (min-width: 500px){
 
 h1{
-    color: #3E3E3D;
-    font-size: 14px; 
-    line-height: 18px;
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight:300; 
-    padding-right:4vw;
+    color: #9A938F;
+    font-size: 14.5px;
+    font-family: 'Source Serif 4', serif;
+    font-style: italic;
+    line-height: 140%;
+    font-variant: normal;
+    font-weight: 100;
+    padding-right: 4vw;
     padding-top: 12px;
-    text-transform: ;
 }
+
 
 h2{
     color: #3E3E3D;
@@ -541,17 +566,23 @@ h2{
     line-height: 32px;
     font-style: normal; 
     font-variant: normal; 
-    font-weight:300; 
+    font-weight:400; 
     padding-right:4vw;
     padding-top: 12px;
     text-transform: ;
 }
 
-
+h3{
+    color: #3E3E3D;
+    font-size: 14.5px;
+    line-height: 140%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300; /* Corresponds to the 'Light' weight */
+}
 .nav-mobile {
     float: left;
     font-size: 14; 
-    font-weight: 300; 
+    font-weight: 400; 
     line-height: 18px;
     text-align: left;
     padding-left:40px;
@@ -572,7 +603,7 @@ h2{
     font-size: 36; 
     font-style: normal; 
     font-variant: normal; 
-    font-weight: 300; 
+    font-weight: 400; 
     width: 100%;
     height:100px;
     float: left;
@@ -603,7 +634,7 @@ h2{
     font-size: 36; 
     font-style: normal; 
     font-variant: normal; 
-    font-weight: 300; 
+    font-weight: 400; 
     padding-top: 285px;
     width: 100%; 
     float: left;
@@ -645,7 +676,7 @@ h2{
     line-height: 18px; 
     font-style: normal; 
     font-variant: normal; 
-    font-weight:300; 
+    font-weight:400; 
     padding-right:4vw;
     padding-top: 6px;
     text-transform: ;
@@ -667,15 +698,15 @@ p span{
 @media screen and (max-width:499px) and (min-width: 100px){
 
 h1{
-    color: #3E3E3D;
-    font-size: 14px; 
-    line-height: 18px;
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight:300; 
-    padding-right:4vw;
+    color: #9A938F;
+    font-size: 14.5px;
+    font-family: 'Source Serif 4', serif;
+    font-style: italic;
+    line-height: 140%;
+    font-variant: normal;
+    font-weight: 100;
+    padding-right: 4vw;
     padding-top: 12px;
-    text-transform: ;
 }
 
 h2{
@@ -684,17 +715,24 @@ h2{
     line-height: 32px;
     font-style: normal; 
     font-variant: normal; 
-    font-weight:300; 
+    font-weight:400; 
     padding-right:4vw;
     padding-top: 12px;
     text-transform: ;
 }
 
+h3{
+    color: #3E3E3D;
+    font-size: 14.5px;
+    line-height: 140%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300; /* Corresponds to the 'Light' weight */
+}
 
 .nav-mobile {
     float: left;
     font-size: 12; 
-    font-weight: 300; 
+    font-weight: 400; 
     line-height: 18px;
     text-align: left;
     padding-left:20px;
@@ -714,7 +752,7 @@ h2{
     font-size: 9vw; 
     font-style: normal; 
     font-variant: normal; 
-    font-weight: 300; 
+    font-weight: 400; 
     width: 100%;
     height:100px;
     float: left;
@@ -742,7 +780,7 @@ h2{
     font-size: 9vw; 
     font-style: normal; 
     font-variant: normal; 
-    font-weight: 300;
+    font-weight: 400;
     padding-top: 285px;
     width: 100%; 
     float: left;
@@ -782,7 +820,7 @@ h2{
     line-height: 18px;
     font-style: normal; 
     font-variant: normal; 
-    font-weight:300; 
+    font-weight:400; 
     padding-right:4vw;
     padding-top: 6px;
     text-transform: ;
