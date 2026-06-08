@@ -17,7 +17,6 @@ body, html {
 
 
 
-
 /* Link Behavior Link Behavior Link Behavior Link Behavior Link Behavior Link Behavior Link Behavior Link Behavior */
 
 a {
@@ -26,9 +25,9 @@ a {
   transition: 300ms;
 }
 
-a:hover {
+/*a:hover {
     background-size: 4px 50px;
-}
+}*/
 
 a:visited {
     color:inherit;
