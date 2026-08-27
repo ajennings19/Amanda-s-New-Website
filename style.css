@@ -2,7 +2,7 @@
 
     margin: 0 auto;
 
-    
+
 }
 
 body, html {
@@ -38,6 +38,39 @@ b {
 }
 
 
+/* HOMEPAGE GRID HOMEPAGE GRID HOMEPAGE GRID HOMEPAGE GRID HOMEPAGE GRID HOMEPAGE GRID HOMEPAGE GRID */
+/* Shared across all breakpoints -- only column count/gaps/padding change per breakpoint below. */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0;
+}
+
+.card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    background: #EAE4DA;
+    margin: 0;
+}
+
+.card h1 {
+    padding-top: 16px;
+    padding-right: 0;
+    margin: 0;
+}
+
+.card h2 {
+    padding-top: 2px;
+    padding-right: 0;
+    margin: 0;
+}
+
+/* HOMEPAGE GRID HOMEPAGE GRID HOMEPAGE GRID HOMEPAGE GRID HOMEPAGE GRID HOMEPAGE GRID HOMEPAGE GRID */
+
 
 
 
@@ -58,18 +91,18 @@ h1{
     padding-top: 12px;
 }
 
-h1 a { 
-    color: #9A938F; 
+h1 a {
+    color: #9A938F;
 }
 
 h2{
     font-family: "Instrument Serif", serif;
     color: #3E3E3D;
-    font-size: 28px; 
+    font-size: 28px;
     line-height: 100%;
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight:400; 
+    font-style: normal;
+    font-variant: normal;
+    font-weight:400;
     padding-right:4vw;
     padding-top: 12px;
     text-transform: ;
@@ -86,8 +119,8 @@ h3{
 
 .nav {
     float: left;
-    font-size: 14; 
-    font-weight: 400; 
+    font-size: 14;
+    font-weight: 400;
     text-align: left;
     padding-left:4vw;
     padding-top: 18px;
@@ -104,23 +137,23 @@ h3{
 
 #div1 {
     font-size: 36;
-    line-height: 42;  
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
+    line-height: 42;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
     float: left;
 }
 
-#div2 { 
+#div2 {
     font-size: 36;
-    line-height: 42; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
+    line-height: 42;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
     float: left;
     color:#000;
     padding-top: 120px;
-    margin-left: 70%;
+    margin-left: 32%;
 
 }
 
@@ -135,9 +168,9 @@ h3{
 }
 
 .contact{
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
     line-height: 1.12;
     padding-left:4vw;
     padding-right:7vh;
@@ -147,6 +180,14 @@ h3{
 }
 
 
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 32px;
+    row-gap: 56px;
+    padding-right: 6vw;
+}
 
 .services{
     line-height: 1.13;
@@ -180,9 +221,9 @@ h3{
 
 .post{
 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight:400; 
+    font-style: normal;
+    font-variant: normal;
+    font-weight:400;
     line-height: 22px;
     padding-left:0vw;
     padding-right:4vw;
@@ -191,11 +232,11 @@ h3{
 }
 
 .description{
-    font-size: 14px; 
+    font-size: 14px;
     line-height: 18px;
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight:400; 
+    font-style: normal;
+    font-variant: normal;
+    font-weight:400;
     padding-right:4vw;
     padding-top: 12px;
     text-transform: ;
@@ -230,18 +271,18 @@ h1{
     padding-top: 12px;
 }
 
-h1 a { 
-    color: #9A938F; 
+h1 a {
+    color: #9A938F;
 }
 
 h2{
     font-family: "Instrument Serif", serif;
     color: #3E3E3D;
-    font-size: 28px; 
+    font-size: 28px;
     line-height: 100%;
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight:400; 
+    font-style: normal;
+    font-variant: normal;
+    font-weight:400;
     padding-right:4vw;
     padding-top: 12px;
     text-transform: ;
@@ -258,8 +299,8 @@ h3{
 
 .nav {
     float: left;
-    font-size: 14; 
-    font-weight: 400; 
+    font-size: 14;
+    font-weight: 400;
     text-align: left;
     padding-left:4vw;
     padding-top: 18px;
@@ -274,22 +315,22 @@ h3{
 
 
 #div1 {
-    font-size: 36; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
+    font-size: 36;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
     float: left;
 }
 
-#div2 { 
-    font-size: 36; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
+#div2 {
+    font-size: 36;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
     float: left;
     color:#000;
     padding-top: 120px;
-    margin-left: 70%;
+    margin-left: 32%;
 
 }
 
@@ -304,9 +345,9 @@ h3{
 }
 
 .contact{
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
     line-height: 1.12;
     padding-left:4vw;
     padding-right:7vh;
@@ -315,6 +356,14 @@ h3{
     margin: 0 auto;
 }
 
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 24px;
+    row-gap: 48px;
+    padding-right: 4vw;
+}
 
 .services{
     line-height: 1.13;
@@ -354,11 +403,11 @@ h3{
 }
 
 .description{
-    font-size: 14px; 
+    font-size: 14px;
     line-height: 18px;
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight:400; 
+    font-style: normal;
+    font-variant: normal;
+    font-weight:400;
     padding-right:4vw;
     padding-top: 8px;
     text-transform: ;
@@ -387,18 +436,18 @@ h1{
     padding-top: 12px;
 }
 
-h1 a { 
-    color: #9A938F; 
+h1 a {
+    color: #9A938F;
 }
 
 h2{
     font-family: "Instrument Serif", serif;
     color: #3E3E3D;
-    font-size: 28px; 
+    font-size: 28px;
     line-height: 100%;
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight:400; 
+    font-style: normal;
+    font-variant: normal;
+    font-weight:400;
     padding-right:4vw;
     padding-top: 12px;
     text-transform: ;
@@ -415,8 +464,8 @@ h3{
 
 .nav {
     float: left;
-    font-size: 14; 
-    font-weight: 400; 
+    font-size: 14;
+    font-weight: 400;
     text-align: left;
     padding-left:4vw;
     padding-top: 18px;
@@ -432,22 +481,22 @@ h3{
 
 
 #div1 {
-    font-size: 36; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
+    font-size: 36;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
     float: left;
 }
 
-#div2 { 
-    font-size: 36; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
+#div2 {
+    font-size: 36;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
     float: left;
     color:#000;
     padding-top: 120px;
-    margin-left: 70%;
+    margin-left: 38%;
 }
 
 
@@ -461,9 +510,9 @@ h3{
 }
 
 .contact{
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
     line-height: 1.12;
     padding-left:4vw;
     padding-right:7vh;
@@ -473,18 +522,13 @@ h3{
 }
 
 
-#div2 { 
-    font-size: 36; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
-    float: left;
-    color:#000;
-    padding-top: 120px;
-    margin-left: 40%;
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 40px;
+    padding-right: 4vw;
 }
-
-
 
 .services{
     line-height: 1.13;
@@ -525,11 +569,11 @@ h3{
 
 
 .description{
-    font-size: 14px; 
+    font-size: 14px;
     line-height: 18px;
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight:400; 
+    font-style: normal;
+    font-variant: normal;
+    font-weight:400;
     padding-right:4vw;
     padding-top: 6px;
     text-transform: ;
@@ -540,7 +584,7 @@ h3{
 
 }
 
-   
+
 
 
 /* BREAKPONT 2 BREAKPONT 2 BREAKPONT 2 BREAKPONT 2 BREAKPONT 2 BREAKPONT 2 BREAKPONT 2 BREAKPONT 2 BREAKPONT 2   */
@@ -559,18 +603,18 @@ h1{
     padding-top: 12px;
 }
 
-h1 a { 
-    color: #9A938F; 
+h1 a {
+    color: #9A938F;
 }
 
 h2{
     font-family: "Instrument Serif", serif;
     color: #3E3E3D;
-    font-size: 28px; 
+    font-size: 28px;
     line-height: 100%;
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight:400; 
+    font-style: normal;
+    font-variant: normal;
+    font-weight:400;
     padding-right:4vw;
     padding-top: 12px;
     text-transform: ;
@@ -585,8 +629,8 @@ h3{
 }
 .nav-mobile {
     float: left;
-    font-size: 14; 
-    font-weight: 400; 
+    font-size: 14;
+    font-weight: 400;
     line-height: 18px;
     text-align: left;
     padding-left:40px;
@@ -603,10 +647,10 @@ h3{
 
 
 #div1 {
-    font-size: 36; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
+    font-size: 36;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
     width: 100%;
     height:100px;
     float: left;
@@ -617,7 +661,7 @@ h3{
 
 
 .title{
-    font-size: 36; 
+    font-size: 36;
     line-height: 1.13;
     padding-left:40px;
     padding-right:7vh;
@@ -633,13 +677,13 @@ h3{
 }
 
 
-#div2 { 
-    font-size: 36; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
+#div2 {
+    font-size: 36;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
     padding-top: 285px;
-    width: 100%; 
+    width: 100%;
     float: left;
     color:#000;
     display: block;
@@ -647,13 +691,24 @@ h3{
 
 
 
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 16px;
+    row-gap: 32px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top: 100px;
+    padding-bottom: 45px;
+}
+
 .services{
     line-height: 1.13;
     padding-left:40px;
     padding-right:40px;
     padding-top: 100px;
-    padding-bottom: 45;
-    font-size: 36; 
+    padding-bottom: 45px;
+    font-size: 36;
 }
 
 
@@ -676,10 +731,10 @@ h3{
 
 .description{
     font-size: 14px;
-    line-height: 18px; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight:400; 
+    line-height: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight:400;
     padding-right:4vw;
     padding-top: 6px;
     text-transform: ;
@@ -691,7 +746,7 @@ h3{
 
 p span{
         color: #3E3E3D;
-        font-size: 24px; 
+        font-size: 24px;
 }
 
 }
@@ -711,18 +766,18 @@ h1{
     padding-top: 12px;
 }
 
-h1 a { 
-    color: #9A938F; 
+h1 a {
+    color: #9A938F;
 }
 
 h2{
     font-family: "Instrument Serif", serif;
     color: #3E3E3D;
-    font-size: 28px; 
+    font-size: 28px;
     line-height: 100%;
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight:400; 
+    font-style: normal;
+    font-variant: normal;
+    font-weight:400;
     padding-right:4vw;
     padding-top: 12px;
     text-transform: ;
@@ -738,8 +793,8 @@ h3{
 
 .nav-mobile {
     float: left;
-    font-size: 14; 
-    font-weight: 400; 
+    font-size: 14;
+    font-weight: 400;
     line-height: 18px;
     text-align: left;
     padding-left:40px;
@@ -754,10 +809,10 @@ h3{
 }
 
 #div1 {
-    font-size: 9vw; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
+    font-size: 9vw;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
     width: 100%;
     height:100px;
     float: left;
@@ -766,7 +821,7 @@ h3{
 }
 
 .title{
-    font-size: 9vw; 
+    font-size: 9vw;
     line-height: 1.13;
     padding-left:20px;
     padding-right:7vh;
@@ -781,16 +836,26 @@ h3{
     display: none;
 }
 
-#div2 { 
-    font-size: 9vw; 
-    font-style: normal; 
-    font-variant: normal; 
+#div2 {
+    font-size: 9vw;
+    font-style: normal;
+    font-variant: normal;
     font-weight: 400;
     padding-top: 285px;
-    width: 100%; 
+    width: 100%;
     float: left;
     color:#000;
     display: block;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 100px;
+    padding-bottom: 45px;
 }
 
 .services{
@@ -798,8 +863,8 @@ h3{
     padding-left:20px;
     padding-right:20px;
     padding-top: 100px;
-    padding-bottom: 45;
-    font-size: 36; 
+    padding-bottom: 45px;
+    font-size: 36;
 }
 
 
@@ -823,9 +888,9 @@ h3{
 .description{
     font-size: 14px;
     line-height: 18px;
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight:400; 
+    font-style: normal;
+    font-variant: normal;
+    font-weight:400;
     padding-right:4vw;
     padding-top: 6px;
     text-transform: ;
@@ -837,7 +902,7 @@ h3{
 
 /*p span{
         color: #3E3E3D;
-        font-size: 20px; 
+        font-size: 20px;
 }*/
 
 
